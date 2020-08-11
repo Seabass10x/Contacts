@@ -1,17 +1,6 @@
 type: edu
 custom_name: stage2
 files:
-- name: src/contacts/Main.java
-  visible: true
-  text: |
-    package contacts;
-
-    public class Main {
-        public static void main(String[] args) {
-            System.out.println("Hello World!");
-        }
-    }
-  learner_created: false
 - name: test/ContactsTest.java
   visible: false
   text: "import contacts.Main;\nimport org.hyperskill.hstest.stage.StageTest;\nimport\
@@ -223,6 +212,21 @@ files:
     \        }\n        catch (Exception ex) {\n            return new CheckResult(false,\
     \ \"Can't check the answer\");\n        }\n    }\n}\n"
   learner_created: false
+- name: src/contacts/Main.java
+  visible: true
+  text: |
+    package contacts;
+
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Hello World!");
+        }
+    }
+  learner_created: false
 feedback_link: https://hyperskill.org/projects/43/stages/229/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/43/stages/229/implement">JetBrains
+    Academy</a>
+  time: Tue, 11 Aug 2020 02:52:27 UTC
 record: -1
